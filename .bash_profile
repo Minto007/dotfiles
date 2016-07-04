@@ -1,5 +1,9 @@
-eval "$(~/.cpad/bin/cpad init)"
+# ローカルファイルの取得（公開する情報の制限）
+if [ -f "$HOME/.local_profile.bash" ]; then
+        source "$HOME/.local_profile.bash"
+fi
 
+# ファイルの種類ごとに表示色設定
 export CLICOLOR=1
 export LSCOLORS=gxGxcxdxCxegedabagacad
 
