@@ -1,12 +1,12 @@
 #aliasの追加
-alias status='sta'
-alias commit='com'
-alias checkout='check'
+alias status='st'
+alias commit='co'
+alias checkout='che'
 
 
 
 # ローカルファイルの取得（公開する情報の制限）
-if [ -f "$HOME/.local_profile.bash" ]; then
+if [ -f "$HOME/local_profile.bash" ]; then
         source "$HOME/.local_profile.bash"
 fi
 
