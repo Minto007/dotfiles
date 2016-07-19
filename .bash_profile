@@ -1,9 +1,15 @@
+#aliasの追加
+alias bun="bundle"
+alias che="checkout"
+alias co="commit"
+alias st="status" 
+
 # ファイルの種類ごとに表示色設定
 export CLICOLOR=1
-export LSCOLORS=gxGxcxdxCxegedabagacad
+export LSCOLORS=fxGxcxdxCxegedabagacad
 
 # コマンド入力での「$」の前の表示設定
-PS1="\[\033[32m\]\u\[\033[0m\] : \[\033[36m\]\t\[\033[0m\] $ " # ユーザー名 : 時間 $  
+PS1="\[\033[32m\]\u\[\033[0m\] : \[\033[36m\]\W\[\033[0m\] $ " # ユーザー名 : 時間 $  
 
 # validate shims and autocompeletion
 eval "$(rbenv init -)"
