@@ -1,8 +1,8 @@
 #aliasの追加
-alias bun="bundle"
+alias g="git"
 alias che="checkout"
 alias co="commit"
-alias st="status" 
+alias st="git status" 
 
 # ファイルの種類ごとに表示色設定
 export CLICOLOR=1
